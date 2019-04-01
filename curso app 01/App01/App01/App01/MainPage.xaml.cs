@@ -23,7 +23,7 @@ namespace App01
         {
             //to Do logica do programa
 
-            //To Do validações
+            //To Do validações 
             string cep = CEP.Text.Trim();
 
             if (isValidCEP(cep))
