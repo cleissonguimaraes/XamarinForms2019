@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App03_LayoutXF"
+             x:Class="App03_LayoutXF.MainPage">
+
+    <StackLayout>
+        <Button Text="Absolute" BackgroundColor="Transparent" Clicked="AbrirAbsolute" />
+        <Button Text="Grid" BackgroundColor="Transparent" Clicked="AbrirGrid" />
+        <Button Text="Relative" BackgroundColor="Transparent" Clicked="AbrirRelative" />
+        <Button Text="Scroll" BackgroundColor="Transparent" Clicked="AbrirScroll" />
+        <Button Text="Stack" BackgroundColor="Transparent" Clicked="AbrirStack" />
+    </StackLayout>
+
+</ContentPage>
